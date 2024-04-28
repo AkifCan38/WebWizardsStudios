@@ -1,13 +1,231 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+  }
+
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 16px 24px rgba(115, 9, 9, 0.91);
 }
+
+h1 {
+  color: rgb(255, 0, 0);
+  padding: 10px;
+  animation: rainbowEffect 5s infinite alternate;
+}
+
+@keyframes rainbowEffect {
+  0% {
+    color: rgb(255, 0, 0);
+  }
+  16.666% {
+    color: rgb(255, 165, 0);
+  }
+  33.333% {
+    color: rgb(255, 255, 0);
+  }
+  50% {
+    color: rgb(0, 128, 0);
+  }
+  66.666% {
+    color: rgb(0, 0, 255);
+  }
+  83.333% {
+    color: rgb(75, 0, 130);
+  }
+  100% {
+    color: rgb(255, 0, 0);
+  }
+}
+.navSection {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.navButton {
+  background-color: #8c0a0a;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 150px;
+}
+
+.navButton:hover {
+  background-color: rgba(72, 7, 7, 0.24);
+}
+
+main {
+  padding: 30px;
+}
+
+
+button {
+  padding: 20px 30px;
+  background-color: #8c0a0a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: rgba(72, 7, 7, 0.24);
+}
+
+
+#comments {
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 100px;
+}
+
+.comment {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.comment p {
+  margin: 0 0 10px 0;
+}
+
+.comment .author {
+  font-style: italic;
+  color: #666;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+#home,
+#portfolio,
+#about,
+#contact,
+#comments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contact-info {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.contact-icon {
+  color: white;
+  margin-right: 10px;
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+.contact-info p {
+  font-size: 20px;
+}
+#commentForm textarea {
+  flex: 1;
+  height: 100px;
+  margin-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  flex: 1;
+}
+body {
+  background-color: #050000;
+}
+.section-text {
+  color: white;
+}
+.portfolio-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-card {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+
+.portfolio-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+.about-text {
+  font-size: 100px;
+}
+  .portfolio-gallery {
+    display: flex;
+    justify-content: space-between;
+  }
+  .portfolio-card {
+    margin: 0 auto;
+    width: calc(50% - 20px);
+  }
+.portfolio-card img {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-card p {
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.portfolio-navigation {
+  margin-top: 30px;
+}
+
+.portfolio-navigation button {
+  margin-right: 100px;
+  font-size: 25px;
+  padding: 10px 20px;
+}
+

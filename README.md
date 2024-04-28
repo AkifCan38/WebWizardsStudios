@@ -15,6 +15,8 @@ Akif Can DUMAN COM20
  ## Screen Shots My Web Site and Video
 
  ## My Page Video
+ ## My Page
+ https://web-wizards-studios.vercel.app
  
 https://github.com/AkifCan38/WebWizardsStudios/assets/148538864/5292f55d-4646-4185-8255-07460a0a98ab
 
